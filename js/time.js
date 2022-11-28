@@ -1,0 +1,3 @@
+function Tanggal(){var time=new Date();var months=["1","2","3","4","5","6","7","8","9","10","11","12"]
+var month=months[time.getMonth()];var year=time.getFullYear();var hours=time.getHours();var minut=time.getMinutes();var second=time.getSeconds();var tam=document.getElementById("tanggal");tam.textContent=day+" , "+date+" - "+month+" - "+year+" , "+hours+":"+minut+":"+second;setTimeout(Tanggal,1000);}
+Tanggal();
